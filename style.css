@@ -1,0 +1,112 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 2rem 7rem;
+}
+
+
+.logo h2{
+    color: rgba(108, 112, 235, 1);
+    size: 1.5rem;
+}
+
+.logo h2 span{
+    background-color: rgba(108, 112, 235, 1);
+    color:white;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.main{
+    height: 85vh;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background-color: rgba(108, 112, 235, 1);
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.vector-img{
+    height: 500px;
+    width: 500px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+}
+
+.main-title{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 2px;
+}
+
+.sub-title{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2px;
+}
+
+.btn{
+    color: rgba(108, 112, 235, 1);
+    padding:  1rem;
+    background-color: white;
+    width: 250px;
+    border-radius: 40px;
+    font-size: large;
+}
+
+.btn a {
+    color: rgba(108, 112, 235, 1);
+
+}
+
+.icon{
+    color: rgba(108, 112, 235, 1);
+}
+
+/* admin page css */
+
+.result{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(108, 112, 235, 1);
+    border-radius: 50px;
+}
+
+.controlls{
+    
+}
+
+.box{
+    background-color: rgba(108, 112, 235, 1);
+    width: 100%;
+    height: 100px;
+
+}
