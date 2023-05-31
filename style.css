@@ -18,6 +18,10 @@ h2{
     padding: 2rem 7rem;
 }
 
+.nav{
+    
+}
+
 
 .logo h2{
     color: rgba(108, 112, 235, 1);
@@ -160,6 +164,17 @@ h2{
 }
 
 /* selection section  */
+.status{
+    position: relative;
+    top: 10px;
+    left: 1100px;
+    background-color: red;
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: .5rem;
+    font-weight: 600;
+}
 .selection-cover{
     display: flex;
     justify-content: center;
